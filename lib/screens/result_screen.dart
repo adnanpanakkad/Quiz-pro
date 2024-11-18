@@ -23,7 +23,8 @@ class ResultsScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Icon(Icons.emoji_events, size: 100, color: Colors.white),
+                const Icon(Icons.military_tech_outlined,
+                    size: 100, color: Color.fromARGB(255, 255, 255, 0)),
                 const SizedBox(height: 20),
                 Text(
                   "Your Score: $score",
