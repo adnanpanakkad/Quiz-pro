@@ -41,35 +41,10 @@ class _QuizScreenState extends State<QuizScreen> {
       "answer": "Cell"
     },
     {
-      "question": "6:Who painted the Mona Lisa?",
-      "options": [
-        "Leonardo da Vinci",
-        "Vincent van Gogh",
-        "Pablo Picasso",
-        "Claude Monet"
-      ],
-      "answer": "Leonardo da Vinci"
+      "question": "6:What is the freezing point of water?",
+      "options": ["0°C", "32°C", "-100°C", "100°C"],
+      "answer": "0°C"
     },
-    // {
-    //   "question": "What is the freezing point of water?",
-    //   "options": ["0°C", "32°C", "-100°C", "100°C"],
-    //   "answer": "0°C"
-    // },
-    // {
-    //   "question": "Which country is known as the Land of the Rising Sun?",
-    //   "options": ["China", "Japan", "Thailand", "Vietnam"],
-    //   "answer": "Japan"
-    // },
-    // {
-    //   "question": "What is the longest river in the world?",
-    //   "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
-    //   "answer": "Nile"
-    // },
-    // {
-    //   "question": "What is the square root of 64?",
-    //   "options": ["6", "7", "8", "9"],
-    //   "answer": "8"
-    // },
   ];
 
   int currentQuestionIndex = 0;

@@ -21,9 +21,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => HomeScreen(),
-        '/quiz': (context) => QuizScreen(),
-        '/results': (context) => ResultsScreen(),
+        '/': (context) => const HomeScreen(),
+        '/quiz': (context) => const QuizScreen(),
+        '/results': (context) => const ResultsScreen(),
       },
     );
   }
