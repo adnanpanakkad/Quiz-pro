@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_pro/model/view/home.dart';
-import 'package:quiz_pro/model/view/quiz_screen.dart';
-import 'package:quiz_pro/model/view/result_screen.dart';
+import 'package:quiz_pro/screens/home.dart';
+import 'package:quiz_pro/screens/quiz_screen.dart';
+import 'package:quiz_pro/screens/result_screen.dart';
 
 void main() {
   runApp(const MyApp());
