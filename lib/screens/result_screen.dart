@@ -7,9 +7,7 @@ class ResultsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final int score = ModalRoute.of(context)?.settings.arguments as int;
-
     _saveHighScore(score);
-
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
@@ -108,7 +106,7 @@ class ResultsScreen extends StatelessWidget {
     final recentScores = prefs.getStringList('recent_scores') ?? [];
     recentScores.insert(0, "Score: $score");
     if (recentScores.length > 5) {
-      recentScores.removeLast(); 
+      recentScores.removeLast();
     }
     prefs.setStringList('recent_scores', recentScores);
   }
