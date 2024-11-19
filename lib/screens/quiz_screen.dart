@@ -172,6 +172,7 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
+
   @override
   void dispose() {
     _timer?.cancel();
